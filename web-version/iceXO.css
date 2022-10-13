@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+:root {
+  --fancy: #32E0C4;
+  --x-color: #222831;
+  --o-color: #393E46;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #393E46;
+}
+
+#iceXO-board {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#iceXO-board .iceXO-cell {
+  background-color: #EEEEEE;
+  cursor: pointer;
+  position: relative;
+}
+#iceXO-board .iceXO-cell:after, #iceXO-board .iceXO-cell:before {
+  content: "";
+  width: 0;
+  height: 50%;
+  display: block;
+  background-color: var(--fancy);
+  transition: 300ms;
+  transition-delay: 200ms;
+}
+#iceXO-board .iceXO-cell:before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#iceXO-board .iceXO-cell:hover:after, #iceXO-board .iceXO-cell:hover:before {
+  width: 100%;
+}
+#iceXO-board .iceXO-cell:active {
+  transition: 200ms;
+  transform: scale(0.9);
+}
+#iceXO-board .iceXO-cell .symbol {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Permanent Marker";
+  font-size: 6em;
+  text-align: center;
+}
+#iceXO-board .iceXO-cell .symbol-X {
+  color: var(--x-color);
+}
+#iceXO-board .iceXO-cell .symbol-O {
+  color: var(--o-color);
+}
+
+.iceXO-button {
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #32E0C4;
+  box-shadow: 0 0 20px 3px #8bedde;
+  font-family: "Permanent Marker";
+  color: #062721;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  transition: 200ms;
+}
+.iceXO-button:active {
+  padding: 15px 20px;
+  font-size: 1em;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75));
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
