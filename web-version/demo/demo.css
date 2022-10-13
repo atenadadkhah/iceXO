@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+h1 {
+  margin: auto;
+  font-family: "Permanent Marker";
+  color: #32E0C4;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=demo.css.map */
