@@ -34,16 +34,18 @@ Then simply call the `iceXO` object.
 You can also customize it by passing `settings` parameter to the object.
 ``` javascript
 IceXO.play('main', {
-    boardColor: 'red',
+    boardColor: '#EEEEEE',
     body: 'white',
-    fancyColor: 'orange',
-    xColor: 'black',
-    oColor: 'gray',
+    fancyColor: '#32E0C4',
+    xColor: '#222831',
+    oColor: '#393E46',
     gameOver: function (winner){
         alert(`${winner || 'No one'} wins the game.`)
     }
 })
 ``` 
+![Web version](https://user-images.githubusercontent.com/91287064/195767098-772938e2-35a5-4cd5-91f6-945c1f4abf44.png)
+
 ## Python version
 Thanks to Pygame, the Python version also has an interactive user interface.
 
