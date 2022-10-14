@@ -20,9 +20,6 @@ To use this version, you should have `iceXO.css` and `iceXO.js` added in your pr
 </main>
 
 <script src="./js/index.js"></script>
-<script>
-    IceXO.play('main')
-</script>
 </body>
 </html>
 ```
