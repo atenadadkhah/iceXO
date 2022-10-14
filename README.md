@@ -44,7 +44,7 @@ IceXO.play('main', {
     }
 })
 ``` 
-![Web version](https://user-images.githubusercontent.com/91287064/195767593-dc0c4cc3-1297-42ba-a1f5-09fc77fcc5b8.png)
+![iceXO web version](https://user-images.githubusercontent.com/91287064/195767593-dc0c4cc3-1297-42ba-a1f5-09fc77fcc5b8.png)
 
 
 ## Python version
@@ -55,3 +55,5 @@ To use the Python version, at first you should install libraries.
 pip3 install -r requirements.txt
 ```
 To play tic toc toe run the `runner.py` file.
+![iceXO python version](https://user-images.githubusercontent.com/91287064/195767907-471ab4a9-2c91-4b00-bf77-4661e8229f0a.png)
+
