@@ -16,7 +16,7 @@ To use this version, you should have `iceXO.css` and `iceXO.js` added in your pr
 </head>
 <body>
 <main></main>
-<script src="./js/index.js"></script>
+<script src="./js/iceXO.js"></script>
 </body>
 </html>
 ```
