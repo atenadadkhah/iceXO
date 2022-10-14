@@ -5,7 +5,7 @@ Graphical tic toc toe game using minimax algorithm.
 
 The web version of this tic toc toe game, has a beautiful graphical user interface and the ablity to change appearance and colors.
 To use this version, you should have `iceXO.css` and `iceXO.js` in your project and then add them to the page.
-` html
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,11 +24,11 @@ To use this version, you should have `iceXO.css` and `iceXO.js` in your project 
 </script>
 </body>
 </html>
-`
+```
 
 Then simply call the `iceXO` object.
-` html
+``` html
 <script>
     IceXO.play('main')
 </script>
-`
+```
