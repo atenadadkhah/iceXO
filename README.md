@@ -4,7 +4,8 @@ Graphical tic toc toe game using minimax algorithm.
 ## Web version
 
 The web version of this tic toc toe game, has a beautiful graphical user interface and the ablity to change appearance and colors.
-To use this version, you should have `iceXO.css` and `iceXO.js` in your project and then add them to the page.
+
+To use this version, you should have `iceXO.css` and `iceXO.js` added in your project.
 ``` html
 <!DOCTYPE html>
 <html lang="en">
@@ -47,6 +48,7 @@ IceXO.play('main', {
 })
 ``` 
 ## Python version
+Thanks to Pygame, the Python version also has an interactive user interface 
 To use the Python version, at first you should install libraries.
 ```
 pip3 install -r requirements.txt
