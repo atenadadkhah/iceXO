@@ -141,7 +141,7 @@ class IceXO{
         symbolElement.classList.add(`symbol-${currentPlayer}`);
         symbolElement.innerHTML = currentPlayer.toUpperCase()
         document.getElementsByClassName('iceXO-cell').item(elementIndex).appendChild(symbolElement)
-        // Changes board
+        // Changes the board
          board[Math.ceil((elementIndex+1)/(squareNum/3)) -1][elementIndex%(squareNum/3)] = currentPlayer
         if (currentPlayer === firstPlayer){
             this.#engine(board)
