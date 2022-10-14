@@ -11,11 +11,13 @@ To use this version, you should have `iceXO.css` and `iceXO.js` added in your pr
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>iceXO</title>
     <link rel="stylesheet" href="./css/iceXO.css">
 </head>
 <body>
+    
 <main></main>
+    
 <script src="./js/iceXO.js"></script>
 </body>
 </html>
