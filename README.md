@@ -51,4 +51,4 @@ To use the Python version, at first you should install libraries.
 ```
 pip3 install -r requirements.txt
 ```
-To play with tic toc toe run the `runner.py` file.
+To play tic toc toe run the `runner.py` file.
