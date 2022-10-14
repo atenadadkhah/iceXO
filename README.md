@@ -55,5 +55,6 @@ To use the Python version, at first you should install libraries.
 pip3 install -r requirements.txt
 ```
 To play tic toc toe run the `runner.py` file.
+
 ![iceXO python version](https://user-images.githubusercontent.com/91287064/195767907-471ab4a9-2c91-4b00-bf77-4661e8229f0a.png)
 
