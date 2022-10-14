@@ -74,9 +74,9 @@ body {
   cursor: pointer;
   outline: none;
   background-color: var(--fancy);
-  box-shadow: 0 0 20px 3px #48e3ca;
+  box-shadow: 0 0 20px 3px var(--fancy);
   font-family: "Permanent Marker";
-  color: #062721;
+  color: #393E46;
   font-size: 1.2rem;
   position: absolute;
   top: 50%;
