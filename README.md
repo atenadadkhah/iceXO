@@ -15,10 +15,7 @@ To use this version, you should have `iceXO.css` and `iceXO.js` added in your pr
     <link rel="stylesheet" href="/scss/main.css">
 </head>
 <body>
-<main>
-
-</main>
-
+<main></main>
 <script src="./js/index.js"></script>
 </body>
 </html>
