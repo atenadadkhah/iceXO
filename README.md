@@ -48,7 +48,8 @@ IceXO.play('main', {
 })
 ``` 
 ## Python version
-Thanks to Pygame, the Python version also has an interactive user interface 
+Thanks to Pygame, the Python version also has an interactive user interface.
+
 To use the Python version, at first you should install libraries.
 ```
 pip3 install -r requirements.txt
