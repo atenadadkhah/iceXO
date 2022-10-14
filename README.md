@@ -32,3 +32,18 @@ Then simply call the `iceXO` object.
     IceXO.play('main')
 </script>
 ```
+
+You can also customize the UI by passing `settings` parameter to the object.
+``` javascript
+    IceXO.play('main', {
+        boardColor: 'red',
+        body: 'white',
+        fancyColor: 'orange',
+        xColor: 'black',
+        oColor: 'gray',
+        gameOver: function (winner){
+            alert(`${winner || 'No one'} wins the game.`)
+        }
+    })
+ ```  
+    
