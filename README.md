@@ -44,7 +44,8 @@ IceXO.play('main', {
     }
 })
 ``` 
-![Web version](https://user-images.githubusercontent.com/91287064/195767098-772938e2-35a5-4cd5-91f6-945c1f4abf44.png)
+![Web version](https://user-images.githubusercontent.com/91287064/195767593-dc0c4cc3-1297-42ba-a1f5-09fc77fcc5b8.png)
+
 
 ## Python version
 Thanks to Pygame, the Python version also has an interactive user interface.
