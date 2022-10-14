@@ -3,6 +3,7 @@ const squareNum = 9;
 const X = 'X'
 const O = 'O'
 const defaultBackgroundColor = '-moz-default-background-color'
+const defaultColor = '-moz-default-color'
 const terminalOptions = [
     [0,1,2],
     [3,4,5],
@@ -215,7 +216,7 @@ class IceXO{
     }
 
     // Specifies the player
-    static #choosePlayer(parent) {
+    static #choosePlayer(parent, settings) {
         const overlay = document.createElement('div')
         overlay.id = 'overlay'
         document.body.appendChild(overlay)
@@ -227,6 +228,8 @@ class IceXO{
         XButton.innerText = 'Play as X'
         XButton.className = 'iceXO-button'
         XButton.style.top = '70%'
+        XButton.style.color = settings.boardColor || defaultColor
+        OButton.style.color = settings.boardColor || defaultColor
         parentElement.appendChild(OButton)
         parentElement.appendChild(XButton)
         OButton.onclick = () => {
@@ -248,7 +251,7 @@ class IceXO{
     static play(parent, settings = {}){
         this.#buildElements(parent)
         this.#config(settings)
-        this.#choosePlayer(parent)
+        this.#choosePlayer(parent, settings)
         document.addEventListener('click',(e)=> {
                 if (e.target && e.target.className === 'iceXO-cell'){
                     if (!this.#terminal(state)){
