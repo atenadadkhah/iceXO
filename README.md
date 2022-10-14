@@ -12,7 +12,7 @@ To use this version, you should have `iceXO.css` and `iceXO.js` added in your pr
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="/scss/main.css">
+    <link rel="stylesheet" href="./css/iceXO.css">
 </head>
 <body>
 <main></main>
