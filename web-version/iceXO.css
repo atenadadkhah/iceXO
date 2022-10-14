@@ -73,8 +73,8 @@ body {
   border: none;
   cursor: pointer;
   outline: none;
-  background-color: #32E0C4;
-  box-shadow: 0 0 20px 3px #8bedde;
+  background-color: var(--fancy);
+  box-shadow: 0 0 20px 3px #48e3ca;
   font-family: "Permanent Marker";
   color: #062721;
   font-size: 1.2rem;
