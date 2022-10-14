@@ -228,8 +228,8 @@ class IceXO{
         XButton.innerText = 'Play as X'
         XButton.className = 'iceXO-button'
         XButton.style.top = '70%'
-        XButton.style.color = settings.boardColor || defaultColor
-        OButton.style.color = settings.boardColor || defaultColor
+        XButton.style.color = settings.boardColor || defaultBackgroundColor
+        OButton.style.color = settings.boardColor || defaultBackgroundColor
         parentElement.appendChild(OButton)
         parentElement.appendChild(XButton)
         OButton.onclick = () => {
