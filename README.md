@@ -1,6 +1,6 @@
 <h1 align="center">iceXO - A tic toc toe game with AI</h1>
 <p align="center">
-  <img style="padding-bottom:0 !important;" src="https://user-images.githubusercontent.com/91287064/195996577-d0987c15-9af3-4a5a-8880-376cff343159.png"/>
+  <img src="https://user-images.githubusercontent.com/91287064/196000241-68fe91d2-078f-4e91-9194-b88c572df7d6.png"/>
 </p>
 
 
