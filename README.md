@@ -1,6 +1,6 @@
 <p align="center">
-  <img style="padding-bottom:0;" src="https://user-images.githubusercontent.com/91287064/195996577-d0987c15-9af3-4a5a-8880-376cff343159.png"/>
-  <h5 align="center" style="padding-top:0;">Graphical tic toc toe game using minimax algorithm.</h5>
+  <img style="padding-bottom:0 !important;" src="https://user-images.githubusercontent.com/91287064/195996577-d0987c15-9af3-4a5a-8880-376cff343159.png"/>
+  <h5 align="center" style="padding-top:0 !important;">Graphical tic toc toe game using minimax algorithm.</h5>
 </p>
 <p align="center">
   <h1>iceXO</h1>
