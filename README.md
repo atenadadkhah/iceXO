@@ -2,9 +2,8 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91287064/196000241-68fe91d2-078f-4e91-9194-b88c572df7d6.png"/>
 </p>
+<em>Graphical tic toc toe game using minimax algorithm<em>
 
-
-Graphical tic toc toe game using minimax algorithm
 
 ## Web version
 
