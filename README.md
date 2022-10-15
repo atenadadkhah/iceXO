@@ -6,8 +6,10 @@
 </p>
 
 <hr>
-## About iceXO
     
+## About iceXO
+This package is written in two Python and Web versions. Both types have an attractive and interactive user interface, and the web version is flexible and customizable.
+In this project, the minimax algorithm is used in such a way that with every move you make on the screen, artificial intelligence predicts the next moves and chooses the best move.    
 ## Web version
 
 The web version of this tic toc toe game, has a beautiful graphical user interface and the ablity to change appearance and colors.
