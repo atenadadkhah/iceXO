@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/91287064/195996379-e98d7a9d-5af4-419b-8a50-772a8306f941.png" alt="iceXO-logo"/>
+  <img src="https://user-images.githubusercontent.com/91287064/195996577-d0987c15-9af3-4a5a-8880-376cff343159.png"/>
 </p>
 
 # iceXO
