@@ -1,6 +1,9 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91287064/195996577-d0987c15-9af3-4a5a-8880-376cff343159.png"/>
 </p>
+<p align="center">
+  <kbd style="background:gray">License</kbd><kbd style="background:green">MIT</kbd>
+</p>
 
 # iceXO
 Graphical tic toc toe game using minimax algorithm.
