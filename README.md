@@ -5,7 +5,9 @@
   <em>Graphical tic toc toe game using minimax algorithm<em>
 </p>
 
-
+<hr>
+## About iceXO
+    
 ## Web version
 
 The web version of this tic toc toe game, has a beautiful graphical user interface and the ablity to change appearance and colors.
