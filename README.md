@@ -9,7 +9,7 @@
     
 ## About iceXO
 This package is written in two Python and Web versions. Both types have an attractive and interactive user interface, and the web version is flexible and customizable.
-In this project, the minimax algorithm is used in such a way that with every move you make on the screen, artificial intelligence predicts the next moves and chooses the best move.
+In this project, the minimax algorithm is used in such a way that with every move you make on the screen, artificial intelligence predicts next moves and chooses the best move.
 
 <ul>
   <li>A simple way to implement the MiniMax algorithm</li>
