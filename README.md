@@ -41,7 +41,7 @@ To use this version, you should have `iceXO.css` and `iceXO.js` added in your pr
 </html>
 ```
 
-Then simply call the `iceXO` object.
+Then simply call the `iceXO` object and pass the parent element to it (e.g .parent, #parent, div)
 ``` html
 <script>
     IceXO.play('main')
