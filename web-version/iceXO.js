@@ -62,7 +62,7 @@ class IceXO{
         return a
     }
 
-    // Returns board after action `a` taken in board s.
+    // Returns board after action `a` taken in the board.
     static #result(board, action){
         const currentPlayer = this.#player(board)
         let newBoard = structuredClone(board)
