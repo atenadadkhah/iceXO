@@ -62,8 +62,6 @@ IceXO.play('main', {
 })
 ``` 
 ![iceXO web version](https://user-images.githubusercontent.com/91287064/195768633-196cfd41-cac1-4ef5-960e-1c513ec5f4ca.png)
-![iceXO_tictactoe](https://user-images.githubusercontent.com/91287064/196238571-3bedb75c-d695-4aa6-a595-56815354cd91.gif)
-
 
 
 ## Python version
